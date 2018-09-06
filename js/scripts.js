@@ -17,14 +17,29 @@
 $(document).ready(function() {
   console.log("I'm ready.");
   $(".walrus-hidden").click(function() {
-    console.log("You found me!.");
+    console.log("You found me!");
     $(".walrus-showing").slideToggle();
     $(".walrus-hidden").slideToggle();
   });
 
   $(".walrus-showing").click(function() {
-    console.log("Where am I!?!");
-    $(".walrus-showing").slideToggle();
-    $(".walrus-hidden").slideToggle();
+    console.log("Where did I go?");
+      $(".walrus-showing").slideToggle();
+      $(".walrus-hidden").slideToggle();
   });
 });
+
+
+  // $(document).ready(function() {
+  //   console.log("I'm ready.");
+  //   $(".clickable1").click(function() {
+  //     console.log("You found me!");
+  //     $(".walrus-showing").slideToggle();
+  //     $(".walrus-hidden").slideToggle();
+  // });
+  //
+  //   $(".clickable2").click(function() {
+  //     console.log("Where did I go?");
+  //     $(".walrus-showing").slideToggle();
+  //     $(".walrus-hidden").slideToggle();
+  // });

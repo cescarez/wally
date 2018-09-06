@@ -7,3 +7,20 @@ img {
   width: 100%;
   height: auto;
 }
+
+.clickable1 {
+  cursor: pointer;
+}
+
+.clickable1:hover {
+  text-decoration: underline;
+  color: #2DA7DF;
+}
+.clickable2 {
+  cursor: pointer;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
+  color: #2DA7DF;
+}
