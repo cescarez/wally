@@ -1,4 +1,4 @@
-.walrus-showing {
+#walrus-hidden {
   display: none;
 }
 
@@ -8,19 +8,11 @@ img {
   height: auto;
 }
 
-.clickable1 {
+.clickable {
   cursor: pointer;
 }
 
-.clickable1:hover {
-  text-decoration: underline;
-  color: #2DA7DF;
-}
-.clickable2 {
-  cursor: pointer;
-}
-
-.clickable2:hover {
+.clickable:hover {
   text-decoration: underline;
   color: #2DA7DF;
 }
