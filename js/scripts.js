@@ -1,32 +1,14 @@
-
-// $(document).ready(function() {
-//   console.log("I'm ready.");
-//   $("#walrus-hidden").click(function() {
-//     console.log("You found me!");
-//     $("#walrus-showing").slideToggle();
-//     $("#walrus-hidden").slideToggle();
-//   });
-//
-//   $("#walrus-showing").click(function() {
-//     console.log("Where did I go?");
-//       $("#walrus-showing").slideToggle();
-//       $("#walrus-hidden").slideToggle();
-//   });
-// });
-
-
-
 $(document).ready(function() {
   console.log("I'm ready.");
   $("#show-toggle").click(function() {
     console.log("You found me!");
-    $("#walrus-showing").slideToggle();
-    $("#walrus-hidden").slideToggle();
+    $("#initially-showing").hide();
+    $("#initially-hidden").show();
   });
 
   $("#hide-toggle").click(function() {
     console.log("Where did I go?");
-      $("#walrus-showing").show();
-      $("#walrus-hidden").hide();
+      $("#initially-showing").show();
+      $("#initially-hidden").hide();
   });
 });
